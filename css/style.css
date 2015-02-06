@@ -34,8 +34,11 @@
 
 body{
 	font-size:16px;
+	color:#000;
 }
-
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	color:#000;
+}
 h1{
 	font-family: "alternate-gothic-no-3-d",sans-serif;
 }
@@ -216,7 +219,7 @@ section#know-more p.bold-text{
 }
 
 section#know-more .bold-text span.white{
-	display:block;
+	display:inline-block;
 	color:white;
 	text-decoration:underline;
 }
@@ -267,6 +270,7 @@ section#artists-in-residence #visit-us{
 	}
 	section#artists-in-residence #artists .artist img{
 		width:100%;
+		max-width:240px;
 	}
 	section#artists-in-residence #artists .artist .bold-text{
 		font-size:2em;
