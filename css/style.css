@@ -85,6 +85,10 @@ p.rect-heading.inverse{
 	text-decoration:underline;
 }
 
+.artist p{
+  font-size:14px;
+}
+
 /* Base Styles Responsive*/
 
 @media (min-width: 992px) { 
@@ -101,6 +105,7 @@ p.rect-heading.inverse{
 		line-height:1.15em;
 	}
 }
+
 
 
 @media (min-width: 1200px) { 
@@ -291,7 +296,7 @@ section#artists-in-residence #visit-us{
 		font-size:2.5em;
 	}	
 	section#artists-in-residence #artists .artist p{
-		font-size:1.1em;
+		font-size:1em;
 		margin-bottom:20px;
 	}
 }
